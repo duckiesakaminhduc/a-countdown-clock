@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ec3902171.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>DONG HO DEM GIO</div>
+
+    <div id="wrapper">
+        <div id="toggle-button">
+            <div id="circle"></div>
+            
+            <i class="fa-solid fa-play" onclick="startCountdown()"></i>
+            <!-- <i class="fa-solid fa-pause" style="color: #512b1f;"></i> -->
+        </div>
+
+        <div id="state">
+            <h2>STOPWATCH</h2>
+            <h3>-COUNTDOWN-</h3>
+        </div>
+
+        <div id="time-number">
+            <div id="time">
+                <p id="minute">00</p>
+                <p>:</p>
+                <p id="second">00</p>
+            </div>
+            <div id="inputTime">
+                <input type="text" name="" id="" placeholder="mm:ss">
+            </div>
+            <input type="range" min="0" max="200">
+        </div>
+    </div>
+    <audio class="ring-sound" src="sound/ring.mp3"></audio>
+    <script src="App.js"></script>
+</body>
+
+</html>

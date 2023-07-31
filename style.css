@@ -1,0 +1,98 @@
+body {
+    background-color: #A5E5BE;
+}
+
+#wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 490px;
+    padding-top: 3px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 3px 3px;
+    left: 500px;
+}
+
+/*-----------------toggle button---------------*/
+#circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 100rem;
+    border: 5px solid #0bb58e;
+}
+
+#toggle-button {
+    display: flex;
+    position: relative;
+}
+
+#toggle-button i {
+    position: absolute;
+    font-size: 68px;
+    top: 48px;
+    left: 57px;
+    cursor: pointer;
+    color: #0bb58e;
+    text-shadow: 2px 2px black;
+}
+
+#toggle-button i:hover {
+    color: #70f5a3;
+}
+
+#toggle-button i:active {
+    color: #0bb58e;
+    text-shadow: 2px 2px;
+}
+
+
+
+
+/*-----------------stage---------------*/
+
+#state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-----------------time number---------------*/
+
+#time-number #time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#time-number input {
+    display: block;
+}
+
+#time-number input:nth-child(1) {
+    outline: 0;
+    border: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#time-number input:nth-child(2) {
+    width: 200px;
+}
+
+
+/*----------------------------------------------------------------*/
+#inputTime {
+    border-bottom: 2px solid black;
+}
+
+input[type = "range"] {
+    margin: 20px auto;
+    width: 200px;
+}
